@@ -46,7 +46,8 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px
+    padding: 100px;
+    gap: 30px;
 }
 
 button{
@@ -58,8 +59,8 @@ button{
     border-radius: 10px;
 }
 
-.item{
-    border: 5px solid #ff0000;
+img{
+    height: 300px;
 }
 
 /* section-2 */
