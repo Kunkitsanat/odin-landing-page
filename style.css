@@ -107,3 +107,17 @@ button{
     font-size: 22px;
     font-weight: 800;
 }
+
+/* section-4 */
+.box-signup{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: 600;
+}
