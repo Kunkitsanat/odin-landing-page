@@ -84,3 +84,26 @@ button{
     font-size: 18px;
     color: #1F2937;
 }
+
+/* section-3 */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.quoter{
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 800;
+}
