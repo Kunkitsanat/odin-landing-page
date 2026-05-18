@@ -9,6 +9,7 @@
     background-color: #1F2937;
 }
 
+/* section-1 */
 .header{
     display: flex;
     justify-content: space-around;
@@ -59,4 +60,22 @@ button{
 
 .item{
     border: 5px solid #ff0000;
+}
+
+/* section-2 */
+.header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card-item{
+    border: 5px #3882F6;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 10px;
 }
