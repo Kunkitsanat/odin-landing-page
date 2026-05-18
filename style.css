@@ -39,3 +39,22 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item{
+    border: 5px solid #ff0000;
+}
