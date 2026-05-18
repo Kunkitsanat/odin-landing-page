@@ -64,6 +64,11 @@ img{
 }
 
 /* section-2 */
+.section-2{
+    padding: 100px;
+}
+
+
 .header{
     font-size: 36px;
     color: #1F2937;
@@ -71,7 +76,17 @@ img{
 }
 
 .card-item{
-    border: 5px #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .cards{
@@ -79,6 +94,7 @@ img{
     gap: 50px;
     justify-content: space-between;
     padding: 10px;
+    text-align: center;
 }
 
 .info{
