@@ -57,6 +57,8 @@ button{
     font-weight: 600;
     padding: 10px;
     border-radius: 10px;
+    border-color: #E5E7EB;
+    border: 2px solid;
 }
 
 img{
@@ -126,12 +128,25 @@ img{
 }
 
 /* section-4 */
-.box-signup{
+.section-4{
+    display: flex;
     padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-signup{
     display: flex;
     justify-content: space-evenly;
     color: #E5E7EB;
     background-color: #3882F6;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.button-signup{
+    
 }
 
 .head{
